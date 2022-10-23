@@ -74,6 +74,23 @@ header h1 {
   text-align: justify;
   width: 70vw;
 }
+.bulletpoints ul {
+  transition: 500ms;
+}
+.bulletpoints ul:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    #c990ab,
+    rgba(255, 0, 0, 0.712)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #303030;
+  border-radius: 20px;
+  padding: 1rem;
+  transform: scale(1.1);
+  box-shadow: 0 0 100px #c990ab;
+}
 .block-quote {
   transition: 500ms;
 }
