@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #303030;
   font-family: "Prompt", sans-serif;
@@ -6,14 +9,22 @@ body {
 body a {
   color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 body a:hover {
   color: crimson;
 }
+h1 {
+  background-image: linear-gradient(
+    to bottom right,
+    #c990ab,
+    rgba(255, 0, 0, 0.712)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 header {
   margin-bottom: 15px;
-  /* border: 2px solid red; */
   text-align: center;
 }
 header h1 {
@@ -36,14 +47,20 @@ header h1 {
   box-shadow: 0 0 10px #000000;
 }
 .image-quote {
-  /* border: 2px solid red; */
   width: 70vw;
+  transition: 500ms;
 }
 .image-quote img {
   box-shadow: 0 0 10px #000000;
   border-radius: 20px;
   width: 70vw;
   height: auto;
+}
+.image-quote:hover {
+  background-color: #303030;
+  border-radius: 20px;
+  transform: scale(1.1);
+  box-shadow: 0 0 100px #c990ab;
 }
 .quote {
   text-align: center;
@@ -54,12 +71,17 @@ header h1 {
   box-shadow: 0 0 10px #000000;
 }
 .bulletpoints {
-  /* border: 2px solid red; */
   text-align: justify;
   width: 70vw;
 }
 .block-quote {
-  /* margin: 0 auto; */
+  transition: 500ms;
+}
+.block-quote:hover {
+  background-color: #303030;
+  border-radius: 20px;
+  transform: scale(1.1);
+  box-shadow: 0 0 100px #c990ab;
 }
 footer {
   margin: 15px auto;
