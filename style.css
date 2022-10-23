@@ -38,6 +38,7 @@ header {
 .image-quote img {
   box-shadow: 0 0 10px #000000;
   width: 70vw;
+  height: auto;
 }
 .quote {
   display: inline-block;
