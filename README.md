@@ -1,6 +1,8 @@
 # Tribute Page
 [![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)
 
+[![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)
+
 
 For this exercise we will make a tribute page similar to [this example](https://digitalcareerinstitute.github.io/UIB-box-model-tribute-page/).
 
